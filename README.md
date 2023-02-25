@@ -6,8 +6,7 @@ Config for T7 Dedicated Servers for use with the BOIII Client.
 2. Open the Unranked Server folder in windows explorer (if you own BO3 on Steam and have it installed it will be in your BO3 Game Folder)
 3. Add boiii.exe to the Unranked Server Folder
 4. Download this repository and move the startup batch files as well as the zone folder to the Unranked Server Folder
-5. Edit the config(s) in /zone to your liking
-6. Start the Server using BOIII_MP_Server.bat or BOIII_ZM_Server.bat
+5. Edit the config in /zone to your liking
 
 # Additional Steps required for hosting Zombies Dedicated Servers
 As of right now you need to take additional Steps to host Zombies Servers, this may change in future Updates of BOIII.
@@ -30,4 +29,4 @@ zone/zm_levelcommon.ff
 ```
 from your BO3 Game folder into the Unranked Server's ```zone``` Folder. Do the same with the FastFiles of the Maps you want to host on the Server, you do not need to copy the .xpak files, those hold Textures and Sounds which the Server doesn't need.
 
-4. You are now ready to start the Server using BOIII_ZM_Server.bat. Do note that the Map Rotation doesn't start automatically right now, this means you have to type ```map_rotate``` into the Server Console after it has finished loading to load the first Map.
+4. You are now ready to start the Server using BOIII_ZM_Server.bat.
